@@ -1,0 +1,53 @@
+body {
+    margin:50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+.profile {
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid #000077;
+}
+
+.card {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #0000aa;
+    background-color: #90e0ef;
+    border-bottom: 7px solid #000077;
+    border-top: 7px solid #000077;
+}
+
+.border-color {
+    border: 2px dotted palevioletred;
+}
+
+a:link {
+    color: #0000aa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0000aa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000077;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.hi {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
